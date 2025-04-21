@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-color: #1dcd9f;
+}
+
+#navbar .logo-text::after {
+  content: "MaNik";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  color: var(--secondary-color);
+  z-index: -1;
+  filter: blur(5px);
+  animation: fire-text 0.3s linear infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+#navbar .logo-text {
+  display: block;
+  font-size: 2em;
+  position: relative;
+  z-index: 10;
+}
+#navbar .logo-text.active{
+    opacity: 0;
+}
+
+@keyframes fire-text {
+  0% {
+    content: "maniK";
+  }
+  25% {
+    content: "mAnik";
+  }
+  50% {
+    content: "MANIk";
+  }
+  75% {
+    content: "maNiK";
+  }
+  100% {
+    content: "MaNik";
+  }
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#navbar #nav-list {
+  background-image: url("./assets/nav-bg.png");
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 0 0 100% 100%;
+  background-size: fill;
+  background-position: center;
+}
+
+#navbar #nav-list.active {
+  transform: translateY(100%);
+  border-radius: 0;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 4em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+#navbar .menu-nav a:hover {
+  letter-spacing: 0.1em;
+}
+
+#navbar #nav-list .menu-wrapper i {
+  font-size: 0.5em;
+}
+
+#navbar #nav-list .name {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(44, 44, 44);
+  width: 100%;
+  font-size: 2em;
+  padding-bottom: 5px;
+}
+
+#navbar #nav-list .menu-wrapper:nth-child(2) {
+  gap: 20px;
+}
+
+#navbar .button-wrapper {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+
+#navbar .button-wrapper.active {
+  background-color: black;
+}
+
+#navbar .button-wrapper:hover {
+  cursor: pointer;
+  outline: rgba(255, 255, 255, 0.301) 5px solid;
+}
+
+#navbar .hamburger .line {
+  width: 40px;
+  height: 5px;
+  background-color: black;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 100px;
+}
+
+#navbar .hamburger .line.active {
+  background-color: white;
+}
+
+#navbar .hamburger .line:nth-child(1) {
+  width: 20px;
+  height: 5px;
+}
+
+#navbar .hamburger .line:nth-child(3) {
+  width: 20px;
+  height: 5px;
+}
+#navbar .hamburger:hover {
+  cursor: pointer;
+}
+
+/* NINE */
+
+#hamburger-9 {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#hamburger-9.is-active {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#hamburger-9:before {
+  content: "";
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 62px;
+  height: 62px;
+  border: 5px solid transparent;
+  top: calc(50% - 31px);
+  left: calc(50% - 31px);
+  border-radius: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#hamburger-9.is-active:before {
+  border: 5px solid rgba(0, 0, 0, 0.363);
+  opacity: 0.2;
+}
+
+#hamburger-9.is-active .line {
+  width: 35px;
+}
+
+#hamburger-9.is-active .line:nth-child(2) {
+  /* opacity: 0; */
+  background-color: rgb(0, 0, 0);
+  -webkit-transform: rotate(136deg) translateY(-29px);
+  -ms-transform: rotate(136deg) translateY(-29px);
+  -o-transform: rotate(136deg) translateY(-29px);
+  transform: rotate(136deg) translateY(-29px);
+  width: 5px;
+  border-radius: 100%;
+  animation: spin 5s linear infinite;
+}
+
+#hamburger-9.is-active .line:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 10px;
+  height: 4px;
+  background: linear-gradient(to left, rgb(0, 0, 0), transparent);
+  transform: translateY(-50%) rotate(-1deg);
+  filter: blur(2px);
+  opacity: 0.8;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) translateY(-29px);
+    -webkit-transform: rotate(0deg) translateY(-29px);
+    -ms-transform: rotate(0deg) translateY(-29px);
+    -o-transform: rotate(0deg) translateY(-29px);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) translateY(-29px);
+    -ms-transform: rotate(360deg) translateY(-29px);
+    -o-transform: rotate(360deg) translateY(-29px);
+    transform: rotate(360deg) translateY(-29px);
+  }
+}
+
+@keyframes tailFade {
+  0%,
+  100% {
+    /* opacity: 0.8; */
+    width: 40px;
+  }
+  50% {
+    /* opacity: 0.3; */
+    width: 20px;
+  }
+}
+
+#hamburger-9.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(13px);
+  -ms-transform: translateY(13px);
+  -o-transform: translateY(13px);
+  transform: translateY(13px);
+}
+
+#hamburger-9.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-13px) rotate(90deg);
+  -ms-transform: translateY(-13px) rotate(90deg);
+  -o-transform: translateY(-13px) rotate(90deg);
+  transform: translateY(-13px) rotate(90deg);
+}
+
+#navbar #nav-list.active .name {
+  animation: slideDownFade 0.5s ease forwards;
+  animation-delay: 0.3s;
+}
+
+#navbar #nav-list.active a:nth-of-type(1) {
+  animation: slideDownFade 0.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+#navbar #nav-list.active a:nth-of-type(2) {
+  animation: slideDownFade 0.5s ease forwards;
+  animation-delay: 0.7s;
+}
+
+#navbar #nav-list.active a:nth-of-type(3) {
+  animation: slideDownFade 0.5s ease forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#navbar #nav-list .name,
+#navbar #nav-list a {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+@media (max-width: 768px) {
+  #navbar a {
+    font-size: 6em;
+  }
+  #navbar #nav-list .menu-wrapper i {
+    font-size: 0.7em;
+  }
+}

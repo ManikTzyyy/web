@@ -1,0 +1,84 @@
+[
+  {
+    "name": "PLUMNET (ongoing)",
+    "desc": "A web-based automation system for Internet Service Providers (ISPs), designed to streamline the management and configuration of network devices using Django and GenieACS",
+    "tech": "Django, GenieACS, ChartJS",
+    "image": "plumnet.webp",
+    "github": "https://github.com/ManikTzyyy/plumnet",
+    "live": "#"
+  },
+  {
+    "name": "Les Village ",
+    "desc": "A website for Les Village in Bali that provides information about culture, tourism, and local community activities.",
+    "tech": "Wordpress",
+    "image": "lesvillage.webp",
+    "github": "#",
+    "live": "https://lesvillage.com"
+  },
+  {
+    "name": "Rotenbi",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Tailwind CSS, SwipperJS, AOS",
+    "image": "rotenbi.webp",
+    "github": "#",
+    "live": "https://rotenbi.com"
+  },
+  {
+    "name": "DinzHandmade",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Vannilla HTML, CSS, JS",
+    "image": "dinzhandmade.webp",
+    "github": "#",
+    "live": "https://dinzhandmade.com"
+  },
+  {
+    "name": "Magel Bali Salt",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Vannilla HTML, CSS, JS",
+    "image": "magelsalt.webp",
+    "github": "#",
+    "live": "https://pemuteransaltcenter.com"
+  },
+  {
+    "name": "Pagi Motley",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Vannilla HTML, CSS, JS",
+    "image": "pagimotley.webp",
+    "github": "#",
+    "live": "https://pagimotley.com"
+  }
+  ,
+  {
+    "name": "Balilexperience",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Vannilla HTML, CSS, JS",
+    "image": "balilexperience.webp",
+    "github": "#",
+    "live": "https://balilexperience.com"
+  }
+  ,
+  {
+    "name": "Spensix Digital",
+    "desc": "A Mobile app that integrated with google spreadsheet as database to make easier way to do recap for teacher using flutter and google library",
+    "tech": "Flutter, Google Sheets API",
+    "image": "spenxix_digital.webp",
+    "github": "https://github.com/ManikTzyyy/spensixdigital",
+    "live": "#"
+  },
+  {
+    "name": "Ganesha Tools",
+    "desc": "An application for managing item loans at Undiksha, designed to streamline the borrowing and returning process efficiently.",
+    "tech": "Flutter",
+    "image": "ganeshatools.webp",
+    "github": "https://github.com/ManikTzyyy/ganesha_tools",
+    "live": "#"
+  },
+  {
+    "name": "Website Interaktif with 3d Model",
+    "desc": "An interactive website featuring 3D models to enhance user engagement and visualization.",
+    "tech": "Flutter",
+    "image": "interaktifweb.webp",
+    "github": "https://github.com/ManikTzyyy/interaktifwebtest",
+    "live": "https://maniktzyyy.github.io/interaktifwebtest/"
+  }
+]

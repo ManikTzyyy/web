@@ -8,6 +8,14 @@
     "live": "#"
   },
   {
+    "name": "Mobile Presensi IB ",
+    "desc": "Contribute to managing user registration logic and server settings so that the application can run online.",
+    "tech": "flutter, laravel",
+    "image": "presensiIB.webp",
+    "github": "#",
+    "live": "#"
+  },
+  {
     "name": "Les Village ",
     "desc": "A website for Les Village in Bali that provides information about culture, tourism, and local community activities.",
     "tech": "Wordpress",

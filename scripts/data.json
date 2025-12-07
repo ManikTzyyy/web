@@ -1,11 +1,18 @@
-[
+[  {
+    "name": "Ry Kitchen Bali",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Wordpress, SwipperJS, AOS",
+    "image": "rykitchenbali.webp",
+    "github": "#",
+    "live": "https://rykitchenbali.com"
+  },
   {
-    "name": "PLUMNET (ongoing)",
+    "name": "PLUMNET",
     "desc": "A web-based automation system for Internet Service Providers (ISPs), designed to streamline the management and configuration of network devices using Django and GenieACS",
     "tech": "Django, GenieACS, ChartJS",
     "image": "plumnet.webp",
     "github": "https://github.com/ManikTzyyy/plumnet",
-    "live": "#"
+    "live": "https://jurnal.itscience.org/index.php/jpsk/article/view/7056"
   },
   {
     "name": "Mobile Presensi IB ",

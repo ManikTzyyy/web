@@ -21,7 +21,17 @@
     "image": "presensiIB.webp",
     "github": "#",
     "live": "#"
-  },
+  }
+      ,
+  {
+    "name": "Balilexperience",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Wordpress, AOS",
+    "image": "balilexperience.webp",
+    "github": "#",
+    "live": "https://balilexperience.com"
+  }
+    ,
   {
     "name": "Les Village ",
     "desc": "A website for Les Village in Bali that provides information about culture, tourism, and local community activities.",
@@ -61,15 +71,6 @@
     "image": "pagimotley.webp",
     "github": "#",
     "live": "https://pagimotley.com"
-  }
-  ,
-  {
-    "name": "Balilexperience",
-    "desc": "Responsive website for client to showcase their products and services effectively.",
-    "tech": "Vannilla HTML, CSS, JS",
-    "image": "balilexperience.webp",
-    "github": "#",
-    "live": "https://balilexperience.com"
   }
   ,
   {

@@ -1,4 +1,14 @@
 [  {
+    "name": "Exist Merch",
+    "desc": "Responsive website for client to showcase their products and services effectively.",
+    "tech": "Wordpress, SwipperJS, AOS",
+    "image": "existmerch.webp",
+    "github": "#",
+    "live": "https://existmerch.com"
+  },
+
+
+{
     "name": "Ry Kitchen Bali",
     "desc": "Responsive website for client to showcase their products and services effectively.",
     "tech": "Wordpress, SwipperJS, AOS",
